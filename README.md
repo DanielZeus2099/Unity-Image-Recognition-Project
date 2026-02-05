@@ -12,16 +12,15 @@ This project demonstrates a real-time image classification system built with **U
 
 ## Technical Details
 
-- **Model**: [MobileNetV2](https://github.com/onnx/models/tree/main/vision/classification/mobilenet) (`mobilenetv2-10.onnx`)
+- **Model**: [MobileNetV2](https://github.com/onnx/models/tree/main/validated/vision/classification/mobilenet) (`mobilenetv2-10.onnx`)
 - **Input Resolution**: 224x224 RGB
 - **Backend**: Unity Sentis `BackendType.GPUCompute`
 
 ## Requirements
 
-- **Unity Version**: 6000.0.58f2 or later
+- **Unity Version**: 6000.0.58f2 or later (should work with later unity 6 versions too)
 - **Packages**:
   - `com.unity.ai.inference` (Sentis) v2.2.2
-  - `com.unity.render-pipelines.universal` (URP)
 
 ## Setup and Usage
 
@@ -50,4 +49,4 @@ This project demonstrates a real-time image classification system built with **U
 ## References
 
 - [Unity Sentis Documentation](https://docs.unity3d.com/Packages/com.unity.sentis@latest)
-- [ONNX Model Zoo - MobileNet](https://github.com/onnx/models/tree/main/vision/classification/mobilenet)
+- [ONNX Model Zoo - MobileNet](https://github.com/onnx/models/tree/main/validated/vision/classification/mobilenet)
