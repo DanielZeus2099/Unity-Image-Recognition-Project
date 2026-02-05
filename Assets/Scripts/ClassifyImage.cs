@@ -7,7 +7,7 @@ public class ClassifyImage : MonoBehaviour
     [SerializeField] private ModelAsset modelAsset;
     [SerializeField] private TextAsset labelsField;
     [SerializeField] private string targetObject;
-    [SerializeField] private float[] results;
+    private float[] results;
     
 
     private Worker m_Worker;
